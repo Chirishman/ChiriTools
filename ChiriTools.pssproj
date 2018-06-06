@@ -28,8 +28,7 @@
   <ItemGroup>
     <Folder Include="ChiriTools\" />
     <Folder Include="ChiriTools\Public\" />
-    <Folder Include="Private\" />
-    <Folder Include="Public\" />
+    <Folder Include="ChiriTools\Private\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChiriTools\ChiriTools.psd1" />
@@ -42,6 +41,7 @@
     <Compile Include="ChiriTools\Public\Install-RegistryTweak.ps1" />
     <Compile Include="ChiriTools\Public\Test-ADCredential.ps1" />
     <Compile Include="ChiriTools\Public\Test-ADGroupMembership.ps1" />
+    <Compile Include="ChiriTools\Public\Unprotect-SecureString.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
